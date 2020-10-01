@@ -4,6 +4,216 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+nav{
+    height: 11vh;
+   margin-left: auto;
+   margin-right: auto;
+}
+.navbar-brand{
+    margin-left: 68px;
+    letter-spacing: 1px;
+}
+.b1{
+    color: #3EBEBE;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight:800;
+}
+.b2{
+    color: #021C5F;
+    font-family: 'Raleway', sans-serif;
+    margin-left: -4px;
+    font-size: 30px;
+    font-weight:800;
+}
+.navbar-nav{
+ margin-left: 6rem;
+}
+.navbar-nav li {
+    padding-right: 3rem;
+}
+.navbar-nav li a{
+    color: #05097a;
+ font-weight: 800; 
+ text-decoration: underline;
+}
+
+
+.btn1{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding: 4px;
+    color:#022379 ;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    border: 3px solid  #022379;
+    margin-left: 80px;
+    background-color: #ffffff;
+    font-size: 15px;
+
+}
+.btn2{
+    border-radius: 5px;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 6px;
+    color: white;
+   font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    background-color:#021C5F;
+    border: none;
+    margin-left: 40px;
+
+}
+
+/* Main home section*/
+
+.main{
+    height: 100%;
+    margin: 0;  
+}
+
+  .centered {
+    margin-top: -80vh ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  
+  }
+  
+  .text1{
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Raleway', sans-serif;
+  
+      }
+
+  .head
+  {
+    font-size: 55px;
+      font-weight: 600;
+      font-family: 'Raleway', sans-serif;
+     
+  }
+
+  .text{
+      font-family: sans-serif;
+      margin-top: 5px;
+  }
+
+  .pro{
+      font-size: 18px;
+  }
+
+  .b3{
+    color: #3EBEBE;
+    font-family: 'Raleway', sans-serif;
+    margin-left: -4px;
+    font-size: 18px;   
+}
+
+.btn3{
+    color: white;
+    background-color: #021C5F;
+    border-radius: 2.5px ;
+    border: none;
+    width: 7.5rem;
+    height: 2.5rem;
+    padding: 5px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.btn4{
+    color: white;
+    background-color: #021C5F;
+    border-radius: 2.5px ;
+    border: none;
+    width: 18rem;
+    height: 2.5rem;
+    padding: 5px;
+    margin-top: 50px;
+}
+.btn3:active {
+    border: none;
+    box-shadow: 0 2px 0  #021C5F;
+    transform: translateY(3px);
+  }
+.btn4:active {
+    border: none;
+    box-shadow: 0 2px 0  #021C5F;
+    transform: translateY(3px);
+    
+  }
+  .container{
+      margin-top: 47vh;
+     
+  }
+  .cards{
+    border-bottom: 3px solid #022379;
+  }
+
+
+  /* Our Mission page */
+
+  .mission{
+    background-color: #021C5F;
+    margin-left: -5px;
+    justify-content: center;
+    color: white;
+    height: 70vh;
+    margin-top: -45vh;
+    
+  }
+  
+
+.center{
+    margin-top: 30px;  
+    text-align: left;
+    margin-left: 15px;
+}
+.center small{
+    color: #F0F1F4;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
+    margin-top: 30px;
+    
+}
+.center h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-top: 35px;
+}
+.center p{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+ 
+}
+.mission h6{
+    font-weight: 800;
+    color: #F0F1F4;
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.mission span{
+
+    color: #F0F1F4;
+    margin-left: 15px;
+
+}
+
+.m-img{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
 .product_header{
     display: flex;
     
@@ -31,7 +241,7 @@
 }
 .read_more{
     background-color: #021C5F;
-    color:#fff;
+    color:#F0F1F4;
     border: none;
     border-radius: 2.2px;
     width: 30%;
@@ -40,7 +250,7 @@
 }
 .container-6{
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
 .news{
     border-top: 10px solid #021C5F;
@@ -70,7 +280,7 @@
     margin-top: 20px;
     border:none;
     background-color:#021C5F;
-    color:#fff;
+    color:#F0F1F4;
     height: 7vh;
     border-radius: 5px;
 
