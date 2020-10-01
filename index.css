@@ -4,3 +4,83 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.product_header{
+    display: flex;
+    
+}
+.product_header_word{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #021C5F;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.product_cards{
+    display: flex;
+    
+}
+.team_header{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #021C5F;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.team_cards{
+    display:flex;
+}
+.read_more{
+    background-color: #021C5F;
+    color:#fff;
+    border: none;
+    border-radius: 2.2px;
+    width: 30%;
+    height:4vh;
+    cursor: pointer;
+}
+.container-6{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.news{
+    border-top: 10px solid #021C5F;
+    border-right: 10px solid #021C5F;
+}
+.news h1{
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold ;
+    color: #021C5F;
+}
+.news img{
+   float:left;
+   height: 18vh;
+}
+.news h4 {
+    display: inline;
+    color: #021C5F;
+}
+.container-7{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.container-7 .btn1{
+    width:80%;
+    margin-top: 20px;
+    border:none;
+    background-color:#021C5F;
+    color:#fff;
+    height: 7vh;
+    border-radius: 5px;
+
+}
+.container-7 input{
+    height:7vh;
+    border-radius: 5px;
+    width: 80%;
+    border:none;
+    margin-top: 20px;
+    border-radius:5px;
+}
+
