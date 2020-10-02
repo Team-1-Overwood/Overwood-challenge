@@ -101,3 +101,39 @@
                 </div>
         </div>
     </div>
+
+
+        <!-- <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"><span class="b1">OVER</span> <span class="b2">WOOD</span></a>
+      
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Our Products</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Overwood Prime</a>
+                      <a class="dropdown-item" href="#">Overwood Dollar</a>
+                      <a class="dropdown-item" href="#">Overwood Child</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">6 Things About Us </a>
+              </li>
+              <div class="nav__buttons">
+              <button type="button" class="btn1">Log In</button>
+              <button type="button" class="btn2">Create Account</button>
+            </div>
+            </ul>
+          </div>
+        </div>
+    </nav> -->
