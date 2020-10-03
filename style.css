@@ -65,7 +65,7 @@
 /* ----------------BANNER PAGE----------------- */
 .bannerPage{
     height:89vh;
-    background: linear-gradient(rgba(32, 32, 34, 0.5),rgba(37, 37, 39, 0.5)),   url("./images/PSX_20201002_015106.jpg");
+    background: linear-gradient(rgba(32, 32, 34, 0.5),rgba(37, 37, 39, 0.5)),   url("https://res.cloudinary.com/dwu1btxcg/image/upload/v1601739207/Migrant/home_okgntg.png");
     background-position: center;
     background-size: cover;
     text-align: center;
