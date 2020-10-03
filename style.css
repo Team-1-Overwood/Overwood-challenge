@@ -1,0 +1,1152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------------------DESKTOP VIEW ----------------------------------*/
+
+/*------------ NAVBAR------------ */
+.navbar {
+    height: 11vh;
+}
+
+.navbar-brand {
+    letter-spacing: .1px;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+}
+
+.b1 {
+    color: #3ebebe;
+}
+
+.b2 {
+    color: #021c5f;
+}
+
+.nav-item a {
+    color: #05097a;
+    font-weight: 700;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 5vh;
+    height: fit-content;
+    line-height: 15px;
+}
+
+.form-inline button {
+    font-family: "Raleway", sans-serif;
+    font-size: .8em;
+    font-weight: 700;
+    border: 1px solid #05097a;
+}
+
+.form-inline button:hover {
+    background-color: #3ebebe;
+    border: 1px solid #3ebebe;
+    color: #ffff;
+}
+
+.btn1 {
+    color: #05097a;
+    margin-right: 15px;
+}
+
+.btn2 {
+    background-color: #05097a;
+    color: #ffffff;
+}
+/* ----------------BANNER PAGE----------------- */
+.bannerPage{
+    height:89vh;
+    background: linear-gradient(rgba(32, 32, 34, 0.5),rgba(37, 37, 39, 0.5)),   url("./images/PSX_20201002_015106.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 25vh;
+    color: #f3f3f3;
+    background-attachment: fixed;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.bannerPage h1{
+    font-size: 3.5em;
+}
+.bannerPage p a{
+    text-decoration:none;
+    color: #f3f3f3;
+}
+.bannerPage button{
+    margin-top: 5vh;
+    font-weight: bold;
+    font-size: 1em;
+    background-color:  #3dbdbd;
+    color:#ffff;
+    padding:0.8% 2%;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.bannerPage button:hover{
+    background-color: #00387A;
+}
+/* -----------CARDS------------ */
+.cards{
+    background-color: #f3f3f3;
+    padding: 3% 10%;
+    display: flex;
+}
+.cards div, .productCard div{
+    flex:1;
+    width:100%;
+    margin:1%;
+    border-radius: 3px;
+    padding:3%;
+    background-color:#ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+i{
+    font-size:2.2em;
+    color: #00387A;
+    padding-bottom: 8%;
+}
+
+/* -----OUR MISSION----- */
+.about {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #f8f9fa;
+    padding: 5% 0;
+    background-color: #021c5f;
+}
+
+.mission {
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.phone-view img {
+    display: none;
+}
+
+.company-img,
+.letter {
+    flex: 1;
+}
+
+.company-img {
+    background-image: url(./images/copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company-img img {
+    display: none;
+}
+
+.letter {
+    padding: 3%;
+}
+
+.letter h5 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #b0d4f8;
+}
+
+.letter h1 {
+    margin-bottom: 7%;
+    font-weight: 700;
+}
+
+.letter p {
+    padding: 2% 0;
+}
+
+.sign {
+    margin-top: 15%;
+}
+
+.sign img {
+    width: 22%;
+}
+/* -------------PRODUCT--------------- */
+.product{
+    background-color: #f3f3f3;
+    padding:5%;
+}
+.heading{
+    padding: 0 1%;
+    display: flex;
+    padding-bottom: 2%;
+}
+.heading_name{
+    width: 100%;
+    text-align: center;
+    color: #00387A;
+    border-bottom: 2px solid #021c5f;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 0.1em;
+}
+.productCard{
+    display:flex;
+}
+.productCard h3{
+    color:#021c5f;
+    font-size:1.2em ;
+}
+.productCard div a{
+    padding:2%;
+    text-decoration: none;
+    background-color: #00387A;
+    color: #f3f3f3;
+    border-radius:3px;
+    font-size: 0.8em;
+}
+.productCard div a:hover{
+    background-color: #3dbdbd;
+    color: #00387A;
+    transition: 0.3s ease-in;
+}
+
+/*---- OUR TEAM------- */
+.team-header {
+    padding: 0 7%;
+    margin-top: 5%;
+}
+
+.team {
+    width: 100%;
+    text-align: center;
+    color: #021c5f;
+    border-bottom: 2px solid #021c5f;
+    font-size: 2.3em;
+    font-weight: 600;
+    font-family: "Poppins";
+    line-height: 0.1em;
+}
+
+.our-team {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    padding-top: 3%;
+}
+
+.part-one,
+.part-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member-card {
+    flex: 1;
+    margin: 7%;
+}
+
+.member-pic img,
+.member-info {
+    width: 100%;
+}
+
+.member-info h5 {
+    background-color: #021c5f;
+    padding: 4%;
+    color: #ffffff;
+    text-align: center;
+}
+.member-info p{
+    font-weight: 600;
+    color: #021c5f;
+    font-size: 1em;
+    padding-right: 2%;
+}
+
+/* ----------------6 THINGS------------------ */
+.things{
+    background-color: #e5eef6;
+    padding:5%;
+}
+.mob{
+    display: none;
+}
+.row1, .row2 {
+    display: flex;
+}  
+.row1 div, .row2 div{
+    flex:1;
+    width:100%;
+    margin:1%;
+}
+.six_card{
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    padding:2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.six_card i{
+    color: #00387A;
+    font-size: 3em;
+    padding-right: 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.six_card div a{
+    text-decoration: none;
+    color:#3dbdbd;
+    border-bottom: 1.5px solid #23d3d3;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.row1 div:hover, .row2 div:hover {
+    background-color: #00387A;
+    color:white;
+    transition: 0.3s ease-in;
+}
+.row1 div:hover i, .row2 div:hover i{
+    color:#3dbdbd;
+}
+
+/* ------CLIENTS SAY--------- */
+.testimonial {
+    padding: 3% 5%;
+    background-color: #0b4df57e;
+}
+
+.testimonial_header {
+    font-size: 2.3em;
+    font-weight: 900;
+    color: #021c5f;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.testimonial__cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.client1 {
+    flex: 1;
+    margin: 2%;
+    text-align: center;
+}
+.client1 p{
+    margin-top: 5%;
+    font-size: .9em;
+    color: #353535;
+}
+.client1 span{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.view-more{
+    text-align: end;
+}
+.view-more a{
+    font-weight: 700;
+    color: #021c5f;
+    text-decoration: underline;
+    font-size: .9em;
+}
+
+/* -------------NEXT STEP-------------- */
+.nextStep{
+    background-color: #f3f3f3;
+    padding:5%;
+}
+.nextStep h2{
+    font-size: 2em;
+}
+.card1{
+    display: flex;
+    justify-content: flex-start;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+}
+.card3{
+    display: flex;
+    justify-content: flex-end;
+}
+.card1 div, .card2 div, .card3 div{
+    background-color:#e5eef6;
+    border-radius: 100px;
+    padding: 2% 8.5%;
+    margin: 1%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2 div{
+    padding:2% 9%;
+}
+.card3 div{
+    padding:2% 13%;
+}
+.card1 a, .card2 a, .card3 a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: #030303;
+}
+
+/* ----------OUR BLOG------------ */
+      .our-blog {
+          background-color: #a7bef87e;
+          padding: 3% 5%;
+      }
+
+      .blog-heading h5 {
+          font-size: 1em;
+          font-weight: 700;
+          color: #727272;
+          font-weight: 800;
+      }
+
+      .blog-heading h1 {
+          color: #3a3939;
+          font-weight: 700;
+      }
+
+      .news {
+          display: flex;
+          margin-top: 3%;
+      }
+
+      .main-news-block {
+          width: 60%;
+          margin-right: 3%;
+          justify-content: center;
+          align-items: center;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .main-news-block img {
+          width: 100%;
+          border-radius: 5px 5px 0 0;
+      }
+
+      .main-news-content {
+          margin-top: 1%;
+          padding-bottom: 4%;
+          padding-left: 2%;
+      }
+
+      .main-read-more {
+          margin-top: 5%;
+      }
+
+      .main-read-more a {
+          background-color: #41dfdf;
+          padding: 1.5% 2%;
+          border-radius: 5px;
+          font-size: .8em;
+          font-weight: 600;
+          color: #fff;
+      }
+
+      .main-read-more a:hover {
+          background-color: #021c5f;
+          transition: ease-in .1s;
+          text-decoration: none;
+      }
+
+      .mini-news-block {
+          width: 40%;
+      }
+
+      .mini-news {
+          display: flex;
+      }
+
+      .mini-news-img img {
+          width: 100%;
+          border-radius: 5px 5px 0 0;
+      }
+
+      .news-part {
+          margin-right: 5%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .mini-news-content {
+          border-radius: 0 0 5px 5px;
+          background-color: #fff;
+          padding: 7%;
+      }
+
+      .mini-news-content p {
+          font-size: .9em;
+      }
+
+      .mini-read-more a {
+          background-color: #41dfdf;
+          padding: 4%;
+          border-radius: 5px;
+          font-size: .8em;
+          font-weight: 600;
+          color: #fff;
+      }
+
+      .mini-read-more a:hover {
+          background-color: #021c5f;
+          text-decoration: none;
+          transition: ease-in .1s;
+      }
+
+      .blog-last {
+          display: none;
+      }
+
+      .blog-button {
+          margin-top: 15%;
+          text-align: center;
+      }
+
+      .blog-button button {
+          padding: 3% 25%;
+          background-color: #021c5f;
+          color: #fff;
+          font-size: 1em;
+          font-weight: 600;
+          border-radius: 5px;
+          border: none;
+      }
+
+      .blog-button button:hover {
+          background-color: #41dfdf;
+          transition: ease-in .1s;
+      }
+
+      /* --------------FOOTER--------------- */
+      footer {
+          background: linear-gradient(rgba(32, 32, 34, 0.5), rgba(37, 37, 39, 0.5)), url("./images/footer bg-01.jpeg");
+          background-position: center;
+          background-size: cover;
+          color: #f3f3f3;
+          padding: 3% 5%;
+      }
+
+      .footer-top {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
+
+      .footer-top ul i {
+          padding: 1%;
+      }
+
+      .footer-top ul i,
+      .icons i {
+          font-size: 1.3em;
+          color: #f3f3f3;
+      }
+
+      .icons {
+          display: flex;
+          justify-content: center;
+          padding-bottom: 2%;
+          border-bottom: 2px solid #f3f3f3;
+      }
+
+      .icons div {
+          margin: 0 1%;
+      }
+
+      .footer-body {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 2%;
+      }
+
+      .firstRow,
+      .secondRow {
+          display: none;
+      }
+
+      footer h1 {
+          font-size: 2em;
+      }
+
+      .footer-top ul,
+      .footer-body div ul {
+          list-style-type: none;
+      }
+
+      .footer-top p,
+      .footer-top a,
+      .footer-body a,
+      .footer-bottom a {
+          color: #f3f3f3;
+          text-decoration: none;
+          font-size: 0.9em;
+          font-weight: 500;
+      }
+
+      input {
+          font-size: 0.8em;
+          padding: 5% 10%;
+          border-radius: 2px;
+          border: none;
+          margin-bottom: 6%;
+      }
+
+      .footer-body div button,
+      .secondRow div button {
+          padding: 5% 10%;
+          border: none;
+          border-radius: 2px;
+          background-color: #3dbdbd;
+          color: #f3f3f3;
+          font-size: 0.8em;
+          font-weight: 600;
+          cursor: pointer;
+      }
+
+      .footer-bottom {
+          background-color: #1E266D;
+          padding: 0 5%;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .footer-bottom p,
+      .footer-bottom a {
+          color: #f3f3f3;
+          font-weight: 600;
+          font-size: 0.8em;
+          padding: 1.2% 0 0;
+      }
+
+      .footer-bottom p {
+          width: 65%;
+      }
+
+
+      /* ------------------IPAD PRO VIEW----------------------- */
+      @media screen and (max-width:1024px) {
+          .main-news-content p {
+              font-size: .8em;
+          }
+
+          .main-read-more a {
+              font-style: .7em;
+          }
+
+          .mini-news-content h5 {
+              font-size: .9em;
+          }
+
+          .mini-news-content p {
+              font-size: .8em;
+          }
+
+          .mini-read-more a {
+              font-size: .7em;
+          }
+
+          .blog-button button {
+              padding: 3% 20%;
+              font-size: .9em;
+          }
+      }
+
+/* ------------------------------------IPAD VIEW-------------------------------------------- */
+@media screen and (max-width:768px){
+    /* --------BANNER PAGE------- */
+    .bannerPage{
+        padding-right:2%;
+        padding-left:2%;
+    }
+    p, .bannerPage button{
+        font-size: 0.9em;
+    }
+    /* --------CARDS-------- */
+    .cards{
+        padding: 3% 5%;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    i{
+        font-size: 1.8em;
+    }
+    /*-----OUR MISSION-----*/
+    .sign img {
+        width: 40%;
+    }
+    /* -------PRODUCTS-------- */
+    .productCard div{
+        padding: 6% 4%;
+    }
+    .productCard h3{
+        font-size: 1.1em;
+    }
+    .productCard div a{
+        padding:2% 2%;
+        font-size: 0.8em;
+    }
+    .heading_name{
+        font-size: 1.8em;
+    }
+    /*------OUR TEAM------*/
+    .our-team {
+        display: block;
+        padding: 5%;
+    }
+
+    .member-card {
+        margin: 2% 7%;
+    }
+    /* -------6 THINGS------- */
+    .things{
+        padding:6% 4%;
+    }
+    .six_card i{
+        font-size: 2em;
+    }
+    .six_card div a{
+        font-size: 0.8em;
+    }
+    /* --------------CLIENTS SAY--------- */
+    .client1{
+        margin: 4%;
+    }
+    .client1 p{
+        font-size: .8em;
+    }
+    /* -------------NEXT STEP-------------- */
+    .nextStep{
+        padding:6% 4%;
+    }
+    .nextStep h2{
+        font-size: 1.8em;
+    }
+    .card1 div{
+        padding: 2% 4%;
+    }
+    .card2 div{
+        padding: 2% 5%;
+    }
+    .card1 a, .card2 a, .card3 a{
+        font-size: 0.9em;
+    }
+    /* ----------OUR BLOG------------ */
+            .blog-heading h5 {
+                font-size: .9em;
+            }
+
+            .blog-heading h1 {
+                font-size: 2.2em;
+            }
+
+            .news {
+                margin-top: 5%;
+            }
+
+            .main-news-block,
+            .mini-news-block {
+                width: 50%;
+            }
+
+            .main-news-content {
+                padding: 3%;
+                padding-bottom: 4%;
+            }
+
+            .main-news-content h4 {
+                font-size: 1.3em;
+            }
+
+            .main-news-content p {
+                font-size: .7em;
+            }
+
+            .main-read-more a {
+                font-size: .6em;
+                padding: 2% 2.5%;
+            }
+
+            .mini-news-content h5 {
+                font-size: .8em;
+            }
+
+            .mini-news-content p {
+                font-size: .6em;
+            }
+
+            .mini-read-more a {
+                font-size: .5em;
+            }
+
+            .blog-button {
+                margin-top: 10%;
+            }
+
+            .blog-button button {
+                font-size: .7em;
+                padding: 3% 16%;
+            }
+
+            /* --------------FOOTER--------------- */
+            footer {
+                padding: 6% 4%;
+            }
+
+            footer h1 {
+                font-size: 1.8em;
+            }
+
+            footer h3 {
+                font-size: 1.2em;
+            }
+
+            .footer-top i,
+            .icons i {
+                font-size: 1.2em;
+            }
+
+            .footer-top p,
+            .footer-top a,
+            .footer-body a,
+            .footer-bottom a {
+                font-size: 0.8em;
+            }
+
+            .footer-body div button,
+            input {
+                font-size: 0.7em;
+                padding: 3% 7%;
+            }
+
+            .footer-bottom p {
+                width: 50%;
+            }
+
+}
+
+/* ---------------------------------MOBILE VIEW---------------------------------------- */
+@media screen and (max-width:480px){
+    /* --------------BANNER PAGE----------------- */
+    .bannerPage{
+        padding-right:2%;
+        padding-left:2%;
+    }
+    .bannerPage h1{
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    .button{
+        display: block;
+        justify-content: center;
+        font-size:0.7em;
+        margin:2%;
+        padding:4% 6%;
+    }
+    /* -----------CARDS------------ */
+    .cards{
+        padding:6% 4% 3% 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards div{
+        padding:5%;
+        margin-bottom: 3%;
+    }
+    h3{
+        font-size: 1em;
+    }
+    i{
+        font-size: 1.5;
+        padding-bottom: 3%;
+    }
+    /*----- OUR MISSION------- */
+    .mission {
+        display: block;
+        padding: 5% 0;
+    }
+
+    .phone-view img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .phone-view,
+    .letter {
+        width: 100%;
+        margin: 0;
+    }
+
+    .letter {
+        padding: 3%;
+    }
+
+    .letter h5 {
+        font-size: .8em;
+    }
+
+    .letter h1 {
+        margin-bottom: 7%;
+        font-size: 2.1em;
+    }
+
+    .letter p {
+        padding: 2% 0;
+    }
+
+    .sign {
+        margin-top: 15%;
+    }
+
+    .sign img {
+        width: 30%;
+    }
+
+    .sign h6 {
+        font-size: .8em;
+    }
+    /* -------PRODUCTS------- */
+    .product{
+        padding:10% 4% 7% 4%;
+    }
+    .productCard{
+        display:block;
+    }
+    .productCard h3{
+        font-size:0.9em ;
+        padding-bottom: 1%;
+    }
+    .productCard div{
+        margin-bottom: 3%;
+    }
+    .heading_name{
+        font-size: 1.5em;
+    }
+    .productCard div a{
+        font-size: 0.7em;
+    }
+    /* -------OUR TEAM------ */
+    .team-header {
+        margin-top: 20%;
+    }
+
+    .team {
+        font-size: 2.3em;
+    }
+
+    .our-team {
+        padding-top: 0;
+    }
+
+    .part-one,
+    .part-two {
+        display: block;
+    }
+    .member-card {
+        margin: 15% 0;
+        padding: 0 10%;
+    }
+    /* ---------6 THINGS-------- */
+    .things{
+        padding:10% 4% 7% 4%;
+    }
+    .desk-tab{
+        display:none;
+    }
+    .mob{
+        display:block;
+    }
+    .mob h2{
+        text-align: center;
+        color: #00387A;
+    }
+    .row1, .row2{
+        display:block;
+    }
+    .row1 div, .row2 div{
+        margin-bottom: 3%;
+    }
+    .six_card div a{
+        font-size: 0.7em;
+    }
+    /* ------CLIENTS SAY----- */
+    .testimonial{
+        padding: 10% 0;
+    }
+    .testimonial_header{
+        font-size: 2em;
+    }
+    .testimonial__cards{
+        display: block;
+    }
+    .client-mob{
+        display: none;
+    }
+    .view-more{
+        margin-top: 7%;
+        text-align: center;
+    }
+    /* -------------NEXT STEP-------------- */
+    .nextStep{
+        padding:10% 4% 5% 4%;
+    }
+    .heading h2, .nextStep h2{
+        font-size: 1.5em;
+    }
+    .next-mob{
+         margin: 10% 0 5% 0;
+    }
+    .card1, .card2, .card3{
+        display: block;
+    }
+    .card1 div, .card2 div, .card3 div{
+        margin-bottom: 5%;
+        padding:4%;
+    }
+    .card1 a, .card2 a, .card3 a{
+        font-size: 0.8em;
+    }
+    /* ----------OUR BLOG------------ */
+            .our-blog {
+                padding: 10% 3%;
+            }
+
+            .phn {
+                display: none;
+            }
+
+            .blog-last {
+                display: block;
+            }
+
+            .mini-news {
+                display: block;
+            }
+
+            .mini-news-block {
+                width: 95%;
+                margin: 0 2.5%;
+            }
+
+            .news-part {
+                margin: 3% 0;
+            }
+
+            .mini-news-content {
+                padding: 2%;
+                padding-bottom: 4%;
+            }
+
+            .mini-news-content h5 {
+                font-size: 1.2em;
+            }
+
+            .mini-news-content p {
+                font-size: .7em;
+            }
+
+            .mini-read-more a {
+                padding: 3% 4%;
+                font-size: .7em;
+            }
+
+            /* --------------FOOTER--------------- */
+            footer {
+                padding: 6% 4%;
+            }
+
+            footer h1 {
+                font-size: 1.5em;
+            }
+
+            .footer-body {
+                display: none;
+            }
+
+            .firstRow,
+            .secondRow {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 4%;
+            }
+
+            .firstRow ul,
+            .secondRow ul {
+                list-style-type: none;
+            }
+
+            .firstRow a,
+            .secondRow a {
+                text-decoration: none;
+                color: #f3f3f3;
+            }
+
+            footer h3 {
+                font-size: 1em;
+            }
+
+            .footer-top ul i,
+            .icons i {
+                font-size: 1em;
+            }
+
+            .footer-top p,
+            .footer-top a,
+            .firstRow a,
+            .secondRow a,
+            .footer-bottom a {
+                font-size: 0.7em;
+            }
+
+            .secondRow div button,
+            input {
+                font-size: 0.6em;
+                padding: 2% 5%;
+            }
+
+            .footer-bottom {
+                padding: 2%;
+                display: block;
+                text-align: center;
+            }
+
+            .footer-bottom p {
+                width: 100%;
+                margin-bottom: 0;
+            }
+
+            .footer-bottom a {
+                display: inline;
+                justify-content: space-between;
+                padding: 0 5%;
+            }
+
+
+}
